@@ -1,2 +1,3 @@
 # awesome-engineering
-Awesome engineering practices acquired in my career
+
+Awesome engineering practices observed through my career
