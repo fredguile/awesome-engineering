@@ -1,0 +1,17 @@
+{
+  "name": "awesome-engineering",
+  "version": "1.0.0",
+  "description": "Awesome engineering practices observed throughout my career",
+  "repository": "https://github.com/fredguile/awesome-engineering.git",
+  "author": "Fred Ghilini <fredguile@gmail.com>",
+  "license": "PRIVATE",
+  "private": true,
+  "scripts": {
+    "serve": "gitbook serve",
+    "generate-epub": "mkdir -p release && gitbook epub . release/awesome-engineering.epub",
+    "generate-pdf": "mkdir -p release && gitbook pdf . release/awesome-engineering.pdf"
+  },
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
