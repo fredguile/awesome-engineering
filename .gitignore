@@ -1,7 +1,3 @@
-
-# Created by https://www.gitignore.io/api/node
-# Edit at https://www.gitignore.io/?templates=node
-
 ### Node ###
 # Logs
 logs
@@ -99,4 +95,5 @@ public/
 _book
 release/
 
-# End of https://www.gitignore.io/api/node
+# macOS
+.DS_Store
